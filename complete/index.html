@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <title>Show/hide a password in a web form</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,700,700i" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/master.css">
+    </head>
+    <body>
+        <div class="page-body">
+            <div class="full-height">
+                <div class="centered">
+                    <h1>Sign in to your account</h1>
+                    <form class="" action="index.html" method="post">
+                        <div class="form-element">
+                            <input type="email" name="email" value="" id="email" placeholder="Email">
+                            <label for="email"><i class="fas fa-envelope"></i></label>
+                        </div>
+                        <div class="form-element">
+                            <input type="password" name="password" value="" id="password" placeholder="Password">
+                            <label for="password"><i class="fas fa-key"></i></label>
+                            <div id="reveal-toggle">
+                                <i class="fas fa-eye"></i>
+                            </div>
+                        </div>
+                        <div class="">
+                            <button type="submit" class="btn">Sign in <i class="fab fa-telegram-plane ml-half"></i></button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <script type="text/javascript" src="js/script.js"></script>
+    </body>
+</html>
